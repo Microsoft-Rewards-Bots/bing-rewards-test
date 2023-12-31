@@ -462,6 +462,10 @@ class Rewards:
                     True,
                 )
                 return False
+                # Add a check to ensure search_index is within the valid range
+        if len(counters.get(search_key, [])) <= search_index:
+            self.__sys_out("Invalid search index", 2, True)
+            return False
 
         current_progress = counters[search_key][search_index]["pointProgress"]
         complete_progress = counters[search_key][search_index]["pointProgressMax"]
