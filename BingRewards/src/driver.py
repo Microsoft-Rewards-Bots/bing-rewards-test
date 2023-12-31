@@ -64,12 +64,12 @@ class DriverFactory(ABC):
     # https://www.whatismybrowser.com/guides/the-latest-user-agent/edge
     __WEB_USER_AGENT = (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,"
-        " like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+        " like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.2210.91"
     )
     __MOBILE_USER_AGENT = (
         "Mozilla/5.0 (Linux; Android 10; HD1913) AppleWebKit/537.36 (KHTML,"
-        " like Gecko) Chrome/110.0.5481.153 Mobile Safari/537.36"
-        " EdgA/110.0.1587.50"
+        " like Gecko) Chrome/120.0.6099.144 Mobile Safari/537.36"
+        " EdgA/120.0.2210.84"
     )
     MAX_DOWNLOAD_ATTEMPTS = 4
 
